@@ -1,0 +1,249 @@
+<resources>
+    <!-- Específico do Aplicativo -->
+    <string name="app_name">Lista de Tarefas</string>
+    <string name="app_name_long">Lista de Tarefas Privativa</string>
+    <string name="initial_alert">CLIQUE + PARA CRIAR UMA LISTA</string>
+    <string name="second_alert">ADICIONAR NOVA TAREFA></string>
+
+    <!-- Menu -->
+    <string name="nav_header_app_name">Tarefas</string>
+    <string name="toolbar_title_main">Tarefas</string>
+    <string name="todos">To-Do\'s</string>
+    <string name="home">Todas as Tarefas</string>
+    <string name="calendar_view">Calendário</string>
+    <string name="show_all_tasks">Mostrar todas as Tarefas</string>
+    <string name="settings">Configurações</string>
+    <string name="other">Outro</string>
+    <string name="help">Ajuda</string>
+    <string name="menu_about">Sobre</string>
+    <string name="search">Pesquisar</string>
+
+
+    <!-- Strings Comuns da IU -->
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
+    <string name="name">Nome</string>
+    <string name="todo_list_description_hint">Descrição</string>
+    <string name="ok">Okay</string>
+
+    <!-- Common model strings -->
+    <string name="select_option">Selecione uma opção</string>
+    <string name="high_priority">Alta</string>
+    <string name="medium_priority">Média</string>
+    <string name="low_priority">Baixa</string>
+    <string name="unknown_priority">Prioridade Desconhecida</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <!-- Ajuda -->
+    <string name="help_overview_heading">Informações Gerais</string>
+    <string name="help_intro">A Lista de Tarefas Privativa pode ser usada para manter suas obrigações em dia e organizar seus deveres.</string>
+    <string name="help_group_lists">Gerenciamento de Tarefas</string>
+    <string name="help_todo_lists_title">Listas de Tarefas</string>
+    <string name="help_todo_lists">Uma lista de tarefas é um grupo de tarefas, que pode 1ser criado a partir do botão + na barra lateral. As listas aparecem no menu de navegação e podem ser selecionadas através do mesmo. Tarefas dentro de uma Lista podem ser conferidas, editadas ou deletadas.</string>
+    <string name="help_subtasks_title">Subtarefas</string>
+    <string name="help_subtasks">Subtarefas podem ser anexadas a uma tarefa para representar os passos para a conclusão da mesma. Elas podem ser criadas ao clicar sobre uma tarefa ao conferir uma lista.</string>
+    <string name="help_deadline_reminder_title">Prazos e Lembretes</string>
+    <string name="help_deadline_reminder">Prazos e lembretes só podem ser criados para tarefas. Você pode tanto especificá-los ao criar ou editar uma Tarefa. Segure uma tarefa por algum tempo para editá-la.</string>
+    <string name="help_group_app">Configurações</string>
+    <string name="help_pin_title">Configurações</string>
+    <string name="help_pin">Abra o menu de configurações no menu para definir uma proteção em formato PIN para a aplicação. O PIN precisa ser um número de pelo menos 4 dígitos. Ele será solicitado toda vez que o aplicativo for aberto.</string>
+    <string name="help_sound">Você também pode escolher se uma notificação deve emitir sons ou não.</string>
+    <string name="help_group_privacy">Informações de Privacidade</string>
+    <string name="help_permissions_title">Permissão RECEIVE_BOOT_COMPLETED</string>
+    <string name="help_permissions">Permissão RECEIVE_BOOT_COMPLETED: Esta permissão permite que o aplicativo inicie logo após o dispositivo ser ligado caso o usuário deseje manter-se atualizado sobre prazos futuros. Permissões de rastreamento e anúncios não existem.</string>
+    <string name="help_widget">Além disso, o app possui um widget que você pode adicionar à tela inicial. O widget apresenta as tarefas que pertencem à lista escolhida. Clicar em uma tarefa o leva a uma visão ampliada no aplicativo. O botão sincronizar pode atualizar a lista de tarefas mostrada.</string>
+
+
+    <!-- Sobre -->
+    <string name="about">Sobre</string>
+    <string name="version_number">Versão v%s</string>
+    <string name="about_author">Autores:</string>
+    <string name="about_author_names" translatable="false">Andressa Varela, Edilson Rodrigues, Igor Marques, Ísis Gueiros e Nicolas Maia</string>
+    <string name="about_author_contributors"></string>
+    <string name="about_affiliation">In affiliation with</string>
+    <string name="more_info">Mais informações em:</string>
+    <string name="github" translatable="false"><a href="https://github.com/NerdEJr/To-do-App-Mobile">Repositório do Github</a></string>
+
+
+    <!-- Geral do Aplicativo -->
+    <string name="done">Feito</string>
+    <string name="no_todo_lists_available">Nenhuma Lista de Tarefas Disponível.</string>
+    <string name="next_deadline_dd">Próximo prazo: %1$s</string>
+    <string name="no_next_deadline">Nenhum prazo agendado</string>
+    <string name="add_list_feedback">%1$s adicionado</string>
+    <string name="edit_todo_list">Editar Lista de Tarefas</string>
+    <string name="delete_list">Deletar Lista de Tarefas</string>
+    <string name="delete_list_feedback">%1$s deletada</string>
+
+    <!-- Caixas de Diálogo ao Criar/Editar Lista -->
+    <string name="new_todo_list">Nova Lista</string>
+    <string name="list_name_must_not_be_empty">Insira o nome da lista.</string>
+    <string name="show_description">Mostrar descrição</string>
+    <string name="no_description_available">Sem descrição disponível.</string>
+
+    <!-- Overview das Tarefas -->
+    <string name="empty_todo_list">Sem tarefas disponíveis</string>
+    <string name="all_tasks">Todas as tarefas</string>
+    <string name="open_tasks">Abrir tarefas</string>
+    <string name="completed_tasks">Tarefas completas</string>
+    <string name="group_by_priority">Organizar por prioridade</string>
+    <string name="sort_by_deadline">Organizar por prazo</string>
+    <string name="add_subtask">Adicionar subtarefa</string>
+
+    <!-- Diálogo ao Criar/Editar tarefa -->
+    <string name="new_todo_task">Nova Tarefa</string>
+    <string name="edit_todo_task">Editar tarefa</string>
+    <string name="deadline_dd">Prazo:</string>
+    <string name="no_deadline">Sem Prazo</string>
+    <string name="edit_task">Editar Tarefa</string>
+    <string name="delete_task">Deletar Tarefa</string>
+    <string name="task_removed">Tarefa Deletada</string>
+    <string name="deadline">Prazo</string>
+    <string name="reminder">Lembrete</string>
+    <string name="deadline_smaller_reminder">O prazo não pode ser anterior ao tempo atual.</string>
+    <string name="set_deadline_before_reminder">Especifique um prazo antes de definir um lembrete</string>
+    <string name="progress_colon">Progresso:</string>
+    <string name="priority_colon">Prioridade:</string>
+    <string name="zero_percent">0%</string>
+    <string name="select_priority">Defina a prioridade:</string>
+    <string name="select_list">Selecione uma lista:</string>
+    <string name="new_todo_subtask">Nova subtarefa</string>
+    <string name="todo_name_must_not_be_empty">Insira o nome da tarefa.</string>
+    <string name="edit_subtask">Editar subtarefa</string>
+    <string name="delete_subtask">Deletar subtarefa</string>
+    <string name="subtask_removed">Subtarefa removida com sucesso</string>
+    <string name="to_choose_list">Selecione uma lista!</string>
+    <string name="click_to_choose">Clique to selecionar!</string>
+    <string name="list_colon">Lista:</string>
+    <string name="work_subtask">Trabalho nesta subtarefa</string>
+    <string name="work_task">Trabalho nesta tarefa</string>
+
+
+    <!-- Select reminder dialog -->
+    <string name="date">Data</string>
+    <string name="time">Hora</string>
+    <string name="no_reminder">Sem lembrete</string>
+
+    <!-- Calendar view -->
+    <string name="calendar">Calendário</string>
+    <string name="no_deadline_today">Não há prazos para este dia.</string>
+
+    <!-- PIN -->
+    <string name="enter_pin">Inserir PIN</string>
+    <string name="wrong_pin">PIN Incorreto</string>
+    <string name="reset_application_button">Reiniciar dados do aplicativo</string>
+    <string name="invalid_pin">Por favor insira um PIN de 4 dígitos.</string>
+    <string name="reset_application_msg">Deseja realmente reiniciar o aplicativo? Isto irá remover a proteção PIN e deletar todos os dados de listas e tarefas.</string>
+    <string name="add_pin">Insira um PIN numérico para acessar o aplicativo. O PIN deve conter 4 dígitos.</string>
+
+    <!-- Configurações -->
+    <string name="default_reminder_time">Tempo padrão de lembrete</string>
+    <string-array name="default_reminder_times_human">
+        <item>No prazo</item>
+        <item>0.5 dias antes</item>
+        <item>1 dia antes</item>
+        <item>1.5 dias antes</item>
+        <item>2 dias antes</item>
+        <item>2.5 dias antes</item>
+        <item>3 dias antes</item>
+    </string-array>
+    <string name="pin_enabled">PIN necessário ao iniciar</string>
+    <string name="set_pin">Definir PIN</string>
+    <string name="auto_progress">Progresso por subtarefas</string>
+    <string name="notify">Ativar som de notificação</string>
+
+    <!-- Serviço de Prazos -->
+    <string name="deadline_approaching">O prazo está chegando: %1$s</string>
+
+    <!-- Date and Time -->
+    <string name="sunday_abbr">DOM</string>
+    <string name="monday_abbr">SEG</string>
+    <string name="tuesday_abbr">TER</string>
+    <string name="wednesday_abbr">QUA</string>
+    <string name="thursday_abbr">QUI</string>
+    <string name="friday_abbr">SEX</string>
+    <string name="saturday_abbr">SAB</string>
+    <string name="january">Janeiro</string>
+    <string name="february">Fevereiro</string>
+    <string name="march">Março</string>
+    <string name="april">Abril</string>
+    <string name="may">Maio</string>
+    <string name="june">Junho</string>
+    <string name="july">Julho</string>
+    <string name="august">Agosto</string>
+    <string name="september">Setembro</string>
+    <string name="october">Outubro</string>
+    <string name="november">Novembro</string>
+    <string name="december">Dezembro</string>
+
+    <!-- Mensagens de Erro -->
+    <string name="error_removing_subtask">Subtarefa não pôde ser removida do banco de dados.</string>
+    <string name="error_removing_task">A tarefa não pôde ser removida do banco de dados.</string>
+    <string name="list_to_db_error">Erro ao criar nova Lista de Tarefas.</string>
+    <string name="task_to_db_error">Erro ao inserir nova tarefa dentro do banco de dados.</string>
+    <string name="subtask_to_db_error">Ocorreu um erro ao inserir nova subtarefa no banco de dados.</string>
+
+    <!-- ### TUTORIAL ### -->
+    <string name="tutorial">Tutorial</string>
+
+    <string name="slide1_heading">Bem-vindo!</string>
+    <string name="slide1_text">Boas-vindas à sua Lista de Tarefas. Este aplicativo não usa quaisquer permissões além das notificações.</string>
+
+    <string name="slide2_heading">Listas</string>
+    <string name="slide2_text">Você pode gerenciar suas tarefas em Listas nomeadas.</string>
+
+    <string name="slide3_heading">Lembrete</string>
+    <string name="slide3_text">Você pode definir prazos e lembretes para as tarefas.</string>
+
+    <string name="slide4_heading">Tudo é importante</string>
+    <string name="slide4_text">Você pode adicionar subtarefas e o progresso da respectiva tarefa principal. Progresso pode ser definido manualmente ou automaticamente pelo número de subtarefas concluídas.</string>
+
+    <string name="slide5_heading">Seguro</string>
+    <string name="slide5_text">Você pode adicionar proteção por PIN nas configurações.</string>
+
+    <string name="okay">Ok</string>
+    <string name="next">Próximo</string>
+    <string name="skip">Pular</string>
+
+    <!-- ### LIXEIRA ### -->
+    <string name="toast_del">Lixeira esvaziada.</string>
+    <string name="bin">Lixeira</string>
+    <string name="bin_toolbar">Lixeira</string>
+    <string name="btn_clear">Esvaziar Lixeira</string>
+    <string name="bin_empty">Lixeira está vazia</string>
+    <string name="restore">Restaurar tarefa</string>
+
+
+    <!-- ### Atividade das Tarefas ### -->
+    <string name="todo_activity">Tarefas</string>
+
+    <!-- ### Diálogo Aviso ao Deletar ### -->
+    <string name="alert_listdelete">Deseja realmente deletar esta lista?</string>
+    <string name="alert_clear">Realmente esvaziar?</string>
+    <string name="alert_delete_yes">Deletar</string>
+    <string name="alert_delete_no">Cancelar</string>
+
+    <!-- ### WIDGET ### -->
+    <string name="add_widget">Adicionar widget</string>
+    <string name="appwidget_text">EXEMPLO</string>
+    <string name="configure">Configurar</string>
+    <string name="widget_list">Escolha uma lista:</string>
+
+
+    <!-- ### Snackbar Messages ### -->
+    <string name="snack_check">Task changed status</string>
+    <string name="snack_undo">Desfazer ação</string>
+    <string name="snack_clear">Lixeira Esvaziada</string>
+
+    <!-- ### SAÍDA ### -->
+    <string name="exit_app">Sair da lista de tarefas?</string>
+    <string name="exit_positive">Sim</string>
+    <string name="exit_negative">Nãoo</string>
+    <string name="select_no_list">Sem lista</string>
+
+    <!-- INTEGRAÇÂO POMODORO -->
+    <string name="permission_todo_name">Integração Lista</string>
+    <string name="permission_todo_description">Permite que o aplicativo inicie o timer com um item específico.</string>
+
+</resources>
