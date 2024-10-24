@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#F44336</color>
-    <color name="colorPrimaryDark">#F12B1D</color>
-    <color name="colorAccent">#C31407</color>
+    <!-- LightMode -->
+    <color name="colorPrimary">#1573E6</color>
+    <color name="colorPrimaryDark">#1531E6</color>
+    <color name="colorAccent">#3C15E6</color>
     <color name="transparent">#00000000</color>
     <color name="lightblue">#db0274b2</color>
     <color name="middleblue">#8aa5ce</color>
@@ -10,8 +11,10 @@
     <color name="yellow">#f6d126</color>
     <color name="white">#ffffff</color>
     <color name="grey">#14d0d0d0</color>
-    <color name="black">#dc000000</color>
     <color name="green">#68e504</color>
+
+    <!-- DarkMode -->
+    <color name="black">#dc000000</color>
 
     <color name="deadline_red">#ef0606</color>
     <color name="deadline_blue">#024265</color>
