@@ -18,8 +18,7 @@
     tools:openDrawer="start">
 
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
@@ -50,7 +49,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="@dimen/fab_margin"
-            android:src="@mipmap/plus_white" />
+            android:src="@mipmap/plus_white"
+            app:backgroundTint="@color/colorAccent" />
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
